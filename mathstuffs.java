@@ -2,6 +2,7 @@
 
 public class mathstuffs {
 	public double result=0; 
+	//find trapenzoidal intergral
 	public static double trapen(int n,double  a , double  b  )
 	{
 		double result = 0 ; 
@@ -20,7 +21,7 @@ public class mathstuffs {
 		return result*(b-a)/n; 
 	}
 	
-	
+	//find simpson intergral
 	public static double simpson(int n,double a , double b  ) 
 	{
 		double result=0;
@@ -37,7 +38,7 @@ public class mathstuffs {
 		}
 		return result * (b-a)/(3*n);
 	}
-	
+	//find middle point integral value
 	public static double  mid(int n,double a , double b ) 
 	{
 		double result= 0 ; 
